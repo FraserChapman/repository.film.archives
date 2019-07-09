@@ -1,0 +1,9 @@
+v1.0.2
+- Fixes unplayable news items
+
+v1.0.1
+- Tiny bug fixes (localised strings)
+- Housekeeping (documentation)
+
+v1.0.0
+- Initial version

@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="plugin.video.bfi" name="BFI Player" provider-name="fraser" version="1.1.0">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0" />
+        <import addon="script.module.routing" version="0.2.0" />
+        <import addon="script.module.beautifulsoup4" version="4.3.2" />
+        <import addon="script.module.requests" version="2.12.4" />
+    </requires>
+    <extension library="main.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Search and play free movies from the BFI collection</summary>
+        <description lang="en_GB">This add-on enables playing of videos and movies from the BFI Player website.
+            It is not created, maintained or in any way affiliated with the British Film Institute.
+            The add-on only provides an interface to access the free content on the BFI Player website from Kodi.
+        </description>
+        <language>en</language>
+        <platform>all</platform>
+        <license>MIT</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=331302</forum>
+        <website>https://player.bfi.org.uk/free</website>
+        <email>fraser.chapman@gmail.com</email>
+        <source>https://github.com/FraserChapman/plugin.video.bfi</source>
+        <news>v1.0.4 (19-6-19) - Python 3 compatible</news>
+        <disclaimer lang="en_GB">&gt;Neither this addon nor its author are in anyway affiliated with the BFI</disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+            <screenshot>resources/media/ss1.jpg</screenshot>
+            <screenshot>resources/media/ss2.jpg</screenshot>
+            <screenshot>resources/media/ss3.jpg</screenshot>
+            <screenshot>resources/media/ss4.jpg</screenshot>
+            <screenshot>resources/media/ss5.jpg</screenshot>
+            <screenshot>resources/media/ss6.jpg</screenshot>
+        </assets>
+    </extension>
+</addon><addon id="plugin.video.bcf" name="British Council Film" provider-name="fraser" version="1.0.2">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0" />
+        <import addon="script.module.routing" version="0.2.0" />
+        <import addon="script.module.beautifulsoup4" version="4.3.2" />
+        <import addon="script.module.requests" version="2.12.4" />
+    </requires>
+    <extension library="main.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Search and play free movies from the British Council Film website</summary>
+        <description lang="en_GB">This add-on enables playing of videos and movies from the British Council Film
+            website. It is not created, maintained or in any way affiliated with the British Council.
+            The add-on only provides an interface to access the free content on the British Council Film website from
+            Kodi.
+        </description>
+        <language>en</language>
+        <platform>all</platform>
+        <license>MIT</license>
+        <forum />
+        <website>http://film.britishcouncil.org/british-council-film-collection</website>
+        <email>fraser.chapman@gmail.com</email>
+        <source>https://github.com/FraserChapman/plugin.video.bfc</source>
+        <news>v1.0.2 (28-5-19)
+            - Fixes unplayable news items
+        </news>
+        <disclaimer lang="en_GB">Neither this addon nor its author are in anyway affiliated with the British Council
+        </disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+            <screenshot>resources/media/ss1.jpg</screenshot>
+            <screenshot>resources/media/ss2.jpg</screenshot>
+            <screenshot>resources/media/ss3.jpg</screenshot>
+        </assets>
+    </extension>
+</addon><addon id="plugin.video.jafc" name="Japanese Animated Film Classics" provider-name="fraser" version="1.1.0">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0" />
+        <import addon="script.module.routing" version="0.2.0" />
+        <import addon="script.module.beautifulsoup4" version="4.3.2" />
+        <import addon="script.module.requests" version="2.12.4" />
+        <import addon="script.module.inputstreamhelper" version="0.3.4" />
+    </requires>
+    <extension library="main.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Search and play works from the Japanese Animated Film Classics website</summary>
+        <description lang="en_GB">Play videos from the "Japanese Animated Film Classics" website.
+To mark a century of Japanese animation, the Film Center at Tokyo's National Museum of Modern Art digitised
+a number of classic works. These are made available here, with the option of hardcoded English subtitles, categorised by genre, theme and artist.
+        </description>
+        <language>ja en</language>
+        <platform>all</platform>
+        <license>MIT</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=331943</forum>
+        <website>https://animation.filmarchives.jp/</website>
+        <email>fraser.chapman@gmail.com</email>
+        <source>https://github.com/FraserChapman/plugin.video.jafc</source>
+        <news>v1.1.0 (31-5-19) - Python 3 compatible</news>
+        <disclaimer lang="en_GB">Neither this addon nor its author are in anyway affiliated with the National Film Archive of Japan.
+        </disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+            <screenshot>resources/media/ss1.jpg</screenshot>
+            <screenshot>resources/media/ss2.jpg</screenshot>
+            <screenshot>resources/media/ss3.jpg</screenshot>
+        </assets>
+    </extension>
+</addon><addon id="plugin.video.iwm" name="IWM Film" provider-name="fraser" version="1.0.0">
+    <requires>
+        <import addon="xbmc.python" version="2.26.0" />
+        <import addon="script.module.routing" version="0.2.0" />
+        <import addon="script.module.beautifulsoup4" version="4.3.2" />
+        <import addon="script.module.requests" version="2.12.4" />
+    </requires>
+    <extension library="main.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Search and play free movies from the IWM Film website</summary>
+        <description lang="en_GB">This add-on enables playing of videos and movies from the IWM Film website.
+The collection of 25,000 hours of footage includes public and service information films, documentaries, unedited combat films, official newsreels and amateur films.
+        </description>
+        <language>en</language>
+        <platform>all</platform>
+        <license>MIT</license>
+        <forum />
+        <website>https://film.iwmcollections.org.uk/</website>
+        <email>fraser.chapman@gmail.com</email>
+        <source>https://github.com/FraserChapman/plugin.video.iwm</source>
+        <news>v1.0.0 (17-6-19) - Initial version</news>
+        <disclaimer lang="en_GB">Neither this addon nor its author are in anyway affiliated with the Imperial War Museum
+        </disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+            <screenshot>resources/media/ss1.jpg</screenshot>
+            <screenshot>resources/media/ss2.jpg</screenshot>
+            <screenshot>resources/media/ss3.jpg</screenshot>
+        </assets>
+    </extension>
+</addon><addon id="plugin.video.eafa" name="East Anglian Film Archive" provider-name="fraser" version="1.0.0">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0" />
+        <import addon="script.module.routing" version="0.2.0" />
+        <import addon="script.module.beautifulsoup4" version="4.3.2" />
+        <import addon="script.module.requests" version="2.12.4" />
+    </requires>
+    <extension library="main.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Search and play free movies from the East Anglian Film Archive website</summary>
+        <description lang="en_GB">This add-on enables playing of videos and movies from the East Anglian Film Archive
+            website.
+            It is not created, maintained or in any way affiliated with the East Anglian Film Archive.
+            The add-on only provides an interface to access the free content on the East Anglian Film Archive website
+            from Kodi.
+        </description>
+        <language>en</language>
+        <platform>all</platform>
+        <license>MIT</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=331329</forum>
+        <website>http://www.eafa.org.uk</website>
+        <email>fraser.chapman@gmail.com</email>
+        <source>https://github.com/FraserChapman/plugin.video.eafa</source>
+        <news>v1.0.0 (25-4-18)
+            - Inital Version
+        </news>
+        <disclaimer>Neither this addon nor its author are in anyway affiliated with the East Anglian Film Archive
+        </disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+            <screenshot>resources/media/ss1.jpg</screenshot>
+            <screenshot>resources/media/ss2.jpg</screenshot>
+            <screenshot>resources/media/ss3.jpg</screenshot>
+        </assets>
+    </extension>
+</addon><addon id="plugin.video.eye" name="EYE Film" provider-name="fraser" version="1.0.0">
+    <requires>
+        <import addon="xbmc.python" version="2.26.0" />
+        <import addon="script.module.routing" version="0.2.0" />
+        <import addon="script.module.beautifulsoup4" version="4.3.2" />
+        <import addon="script.module.requests" version="2.12.4" />
+        <import addon="script.module.cache" version="1.0.1" />
+        <import addon="plugin.video.youtube" version="6.4.1" />
+    </requires>
+    <extension library="main.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Search and play free movies from the EYE Film Institute Netherlands website</summary>
+        <description lang="en_GB">EYE Film Institute Netherlands manages more than 40,000 films from all genres: a fine
+sample of film history, from classics and blockbusters to cult films.
+EYE is renowned worldwide for its knowledge and expertise in the field of film restoration and research.
+        </description>
+        <language>en nl</language>
+        <platform>all</platform>
+        <license>MIT</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=345133</forum>
+        <website>https://www.eyefilm.nl/</website>
+        <email>fraser.chapman@gmail.com</email>
+        <source>https://github.com/FraserChapman/plugin.video.eye</source>
+        <news>v1.0.1 (6-7-19) - Use fixed cache</news>
+        <disclaimer lang="en_GB">Neither this addon nor its author are in anyway affiliated with the EYE Film Institute Netherlands
+        </disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+            <screenshot>resources/media/ss1.jpg</screenshot>
+            <screenshot>resources/media/ss2.jpg</screenshot>
+            <screenshot>resources/media/ss3.jpg</screenshot>
+        </assets>
+    </extension>
+</addon><addon id="plugin.video.bp" name="British Pathé" provider-name="fraser" version="1.0.0">
+    <requires>
+        <import addon="xbmc.python" version="2.26.0" />
+        <import addon="script.module.routing" version="0.2.0" />
+        <import addon="script.module.beautifulsoup4" version="4.3.2" />
+        <import addon="script.module.requests" version="2.12.4" />
+        <import addon="script.module.cache" version="1.0.1" />
+    </requires>
+    <extension library="main.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Search and play free content from British Pathé and the Reuters historical collection
+        </summary>
+        <description lang="en_GB">British Pathé is considered to be the finest newsreel archive in the world and is a treasure trove of 85,000 films unrivalled in their historical and cultural significance.
+British Pathé also represents the Reuters historical collection, which includes more than 120,000 items from Reuters-owned news agencies.
+        </description>
+        <language>en</language>
+        <platform>all</platform>
+        <license>MIT</license>
+        <forum />
+        <website>https://www.britishpathe.com/</website>
+        <email>fraser.chapman@gmail.com</email>
+        <source>https://github.com/FraserChapman/plugin.video.bp</source>
+        <news>v1.0.0 (5-7-19) - Initial version</news>
+        <disclaimer lang="en_GB">Neither this addon nor its author are in anyway affiliated with British Pathé or Reuters
+        </disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+            <screenshot>resources/media/ss1.jpg</screenshot>
+            <screenshot>resources/media/ss2.jpg</screenshot>
+            <screenshot>resources/media/ss3.jpg</screenshot>
+            <screenshot>resources/media/ss4.jpg</screenshot>
+            <screenshot>resources/media/ss5.jpg</screenshot>
+        </assets>
+    </extension>
+</addon><addon id="plugin.video.mia" name="Moving Image Archive" provider-name="fraser" version="1.0.0">
+    <requires>
+        <import addon="xbmc.python" version="2.26.0" />
+        <import addon="script.module.routing" version="0.2.0" />
+        <import addon="script.module.beautifulsoup4" version="4.3.2" />
+        <import addon="script.module.requests" version="2.12.4" />
+        <import addon="script.module.cache" version="1.0.1" />
+    </requires>
+    <extension library="main.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Search and play free content from National Library of Scotland Moving Image Archive</summary>
+        <description lang="en_GB">The Moving Image Archive is Scotland's national collection of moving image and is held at the National Library.
+You can watch over 2,000 clips and full-length films from the collection on the Moving Image Archive catalogue.
+        </description>
+        <language>en</language>
+        <platform>all</platform>
+        <license>MIT</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=345272</forum>
+        <website>https://movingimage.nls.uk/</website>
+        <email>fraser.chapman@gmail.com</email>
+        <source>https://github.com/FraserChapman/plugin.video.mia</source>
+        <news>v1.0.0 (8-7-19) - Initial version</news>
+        <disclaimer lang="en_GB">Neither this addon nor its author are in anyway affiliated with National Library of Scotland Moving Image Archive</disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+            <screenshot>resources/media/ss1.jpg</screenshot>
+            <screenshot>resources/media/ss2.jpg</screenshot>
+            <screenshot>resources/media/ss3.jpg</screenshot>
+            <screenshot>resources/media/ss4.jpg</screenshot>
+            <screenshot>resources/media/ss5.jpg</screenshot>
+        </assets>
+    </extension>
+</addon><addon id="plugin.video.loc" name="Library of Congress" provider-name="fraser" version="1.0.0">
+    <requires>
+        <import addon="xbmc.python" version="2.26.0" />
+        <import addon="script.module.routing" version="0.2.0" />
+        <import addon="script.module.requests" version="2.12.4" />
+        <import addon="script.module.cache" version="1.0.1" />
+    </requires>
+    <extension library="main.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Search and play free content from the Library of Congress</summary>
+        <description lang="en_GB">The Library is the main research arm of the U.S. Congress and the home of the U.S. Copyright Office.
+Several thousand clips, videos and early motion pictures are viewable from the Library's Digital Collection.
+        </description>
+        <language>en</language>
+        <platform>all</platform>
+        <license>MIT</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=345338</forum>
+        <website>https://www.loc.gov/</website>
+        <email>fraser.chapman@gmail.com</email>
+        <source>https://github.com/FraserChapman/plugin.video.loc</source>
+        <news>v1.0.0 (11-7-19) - Initial version</news>
+        <disclaimer lang="en_GB">Neither this addon nor its author are in anyway affiliated with the Library of
+            Congress
+        </disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+            <screenshot>resources/media/ss1.jpg</screenshot>
+            <screenshot>resources/media/ss2.jpg</screenshot>
+            <screenshot>resources/media/ss3.jpg</screenshot>
+            <screenshot>resources/media/ss4.jpg</screenshot>
+            <screenshot>resources/media/ss5.jpg</screenshot>
+            <screenshot>resources/media/ss6.jpg</screenshot>
+        </assets>
+    </extension>
+</addon><addon id="script.module.cache" name="cache" provider-name="fraser" version="1.0.1">
+    <requires>
+        <import addon="xbmc.python" version="2.26.0" />
+    </requires>
+    <extension library="lib" point="xbmc.python.module" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Simple HTTP Cache using sqlite3</summary>
+        <description lang="en_GB">Stores cached data in sqlite3.Blobs. Calculates lifetime, freshness as virtual columns.
+Obeys cache control directives, immutable, no-store, etc. Supports etag, last_modified, etc for validation.
+Can be used as a generic key/blob data store when used without directives
+        </description>
+        <license>MIT</license>
+        <platform>all</platform>
+        <email>fraser.chapman@gmail.com</email>
+        <source>https://github.com/FraserChapman/script.module.cache</source>
+        <news>v1.0.1 (6-7-19) - Small bug-fix with Store class retrieve</news>
+    </extension>
+</addon></addons>

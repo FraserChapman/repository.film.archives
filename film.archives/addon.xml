@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.film.archives" name="Film Archives" version="1.0.0" provider-name="fraser">
+    <extension point="xbmc.addon.repository">
+        <info compressed="false">https://raw.githubusercontent.com/FraserChapman/repository.film.archives/master/repo/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/FraserChapman/repository.film.archives/master/repo/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/FraserChapman/repository.film.archives/master/repo/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Add-ons for various international film archives and collections</summary>
+        <description lang="en_GB">This repository contains addons that enable viewing free content from various international film archive websites.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+        <website>https://github.com/FraserChapman/</website>
+        <email>fraser.chapman@gmail.com</email>
+        <source>https://github.com/FraserChapman/repository.film.archives</source>
+        <news>v1.0.0 - Inital version</news>
+        <disclaimer lang="en_GB">>Neither this addon nor its author are in anyway affiliated with the various content providers.
+The addons provided only allow accesss to freely avilable, web accessible, content from the various collections.</disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <icon>resources/fanart.jpg</icon>
+        </assets>
+    </extension>
+</addon>
