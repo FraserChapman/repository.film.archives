@@ -4,6 +4,8 @@
 
 Colection of Kodi add-ons that allow access to various film and televison archives.
 
+[Donations for this repository gratefully accepted](https://www.paypal.me/fraserchapman)
+
 ## Install Repository
 
 To intsall the Film Archives repository 
@@ -32,15 +34,15 @@ Once you have installed the repository
 *   [British Pathé and the Reuters historical collection](https://github.com/FraserChapman/plugin.video.bp.git)
 *   [National Library of Scotland Moving Image Archive](https://github.com/FraserChapman/plugin.video.mia.git)
 *   [United States Library of Congress](https://github.com/FraserChapman/plugin.video.loc.git)
+*   [Prelinger Archives](https://github.com/FraserChapman/plugin.video.pa.git)
 
-## Script Modules
+## Script modules
 
 *   [cache](https://github.com/FraserChapman/script.module.cache.git)
 
 ## Disclaimer
 
-The add-ons in this repository are not created, maintained or in any way affiliated with the various content providers whose material they access.
-The add-ons simply provide an interface to access free, web-accesible, content from the various content providers websites.
+The add-ons in this repository are not created, maintained or in any way affiliated with the various content providers whose material they access. The add-ons simply provide an interface to access free, web-accesible, content from the various content providers websites.
 If you are a content provider whose material is accessed by one of the add-ons and have any issue or complaint - please [raise an issue](https://github.com/FraserChapman/repository.film.archives/issues/new?labels=DMCA)
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/2e4718a1470c408e842148e253477fc3)](https://www.codacy.com/app/FraserChapman/repository.film.archives?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=FraserChapman/repository.film.archives&amp;utm_campaign=Badge_Grade)
