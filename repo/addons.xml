@@ -1,20 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="plugin.video.bfi" name="BFI Player" provider-name="fraser" version="1.1.0">
+<addons><addon id="plugin.video.bfi" name="BFI Player" provider-name="fraser" version="1.2.0">
     <requires>
         <import addon="xbmc.python" version="2.25.0" />
         <import addon="script.module.routing" version="0.2.0" />
         <import addon="script.module.beautifulsoup4" version="4.3.2" />
         <import addon="script.module.requests" version="2.12.4" />
+        <import addon="script.module.cache" version="1.0.1" />
     </requires>
     <extension library="main.py" point="xbmc.python.pluginsource">
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Search and play free movies from the BFI collection</summary>
-        <description lang="en_GB">This add-on enables playing of videos and movies from the BFI Player website.
-            It is not created, maintained or in any way affiliated with the British Film Institute.
-            The add-on only provides an interface to access the free content on the BFI Player website from Kodi.
-        </description>
+        <summary lang="en_GB">Search and play free movies and shorts from the BFI collection</summary>
+        <description lang="en_GB">Showing the best from the BFI, national and regional archives - including 120 years of Britain on film.</description>
         <language>en</language>
         <platform>all</platform>
         <license>MIT</license>
@@ -22,8 +20,8 @@
         <website>https://player.bfi.org.uk/free</website>
         <email>fraser.chapman@gmail.com</email>
         <source>https://github.com/FraserChapman/plugin.video.bfi</source>
-        <news>v1.0.4 (19-6-19) - Python 3 compatible</news>
-        <disclaimer lang="en_GB">&gt;Neither this addon nor its author are in anyway affiliated with the BFI</disclaimer>
+        <news>v1.2.0 (21-7-19) - Updated "The Cut" to include extra videos</news>
+        <disclaimer lang="en_GB">&gt;Neither this addon nor its author are in anyway affiliated with the British Film Institute</disclaimer>
         <assets>
             <icon>resources/icon.png</icon>
             <fanart>resources/fanart.jpg</fanart>
