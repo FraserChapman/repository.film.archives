@@ -11,4 +11,5 @@ https://github.com/FraserChapman/plugin.video.bp.git \
 https://github.com/FraserChapman/plugin.video.mia.git \
 https://github.com/FraserChapman/plugin.video.loc.git \
 https://github.com/FraserChapman/plugin.video.pa.git \
+https://github.com/FraserChapman/plugin.video.ng.git \
 https://github.com/FraserChapman/script.module.cache.git

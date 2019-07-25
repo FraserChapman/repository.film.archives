@@ -35,6 +35,7 @@ Once you have installed the repository
 *   [National Library of Scotland Moving Image Archive](https://github.com/FraserChapman/plugin.video.mia.git)
 *   [United States Library of Congress](https://github.com/FraserChapman/plugin.video.loc.git)
 *   [Prelinger Archives](https://github.com/FraserChapman/plugin.video.pa.git)
+*   [National Geographic](https://github.com/FraserChapman/plugin.video.ng.git)
 
 ## Script modules
 
