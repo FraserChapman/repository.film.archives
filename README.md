@@ -36,6 +36,7 @@ Once you have installed the repository
 *   [United States Library of Congress](https://github.com/FraserChapman/plugin.video.loc.git)
 *   [Prelinger Archives](https://github.com/FraserChapman/plugin.video.pa.git)
 *   [National Geographic](https://github.com/FraserChapman/plugin.video.ng.git)
+*   [National Film Preservation Foundation](https://github.com/FraserChapman/plugin.video.nfpf.git)
 
 ## Script modules
 
