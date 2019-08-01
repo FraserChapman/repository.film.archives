@@ -37,6 +37,7 @@ Once you have installed the repository
 *   [Prelinger Archives](https://github.com/FraserChapman/plugin.video.pa.git)
 *   [National Geographic](https://github.com/FraserChapman/plugin.video.ng.git)
 *   [National Film Preservation Foundation](https://github.com/FraserChapman/plugin.video.nfpf.git)
+*   [Ngā Taonga Sound & Vision](https://github.com/FraserChapman/plugin.video.ntsv.git)
 
 ## Script modules
 

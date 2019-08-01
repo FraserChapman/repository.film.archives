@@ -13,4 +13,5 @@ https://github.com/FraserChapman/plugin.video.loc.git \
 https://github.com/FraserChapman/plugin.video.pa.git \
 https://github.com/FraserChapman/plugin.video.ng.git \
 https://github.com/FraserChapman/plugin.video.nfpf.git \
+https://github.com/FraserChapman/plugin.video.ntsv.git \
 https://github.com/FraserChapman/script.module.cache.git
