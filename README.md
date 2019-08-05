@@ -1,4 +1,4 @@
-# repository.film.archives
+# Film Archives
 
 ![repository.film.archives](./film.archives/resources/icon.png?dasd=asds)
 
@@ -8,7 +8,7 @@ Colection of Kodi add-ons that allow access to various film and televison archiv
 
 ## Install Repository
 
-To intsall the Film Archives repository 
+To install the Film Archives repository 
 
 1.  Download the [film.archives.zip](https://github.com/FraserChapman/repository.film.archives/blob/master/film.archives.zip?raw=true)
 2.  In Kodi goto Add-ons and choose "Install from Zip file" (you may need to allow add-ons from unkown sources)
