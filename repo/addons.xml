@@ -163,7 +163,7 @@ This add-on provides access to over 200 hours of archive film, spanning 1,200 in
         <email>fraser.chapman@gmail.com</email>
         <source>https://github.com/FraserChapman/plugin.video.eafa</source>
         <news>v1.1.0 (3-8-19) - Python 3 compatible</news>
-        <disclaimer>Neither this addon nor its author are in anyway affiliated with the East Anglian Film Archive
+        <disclaimer lang="en_GB">Neither this addon nor its author are in anyway affiliated with the East Anglian Film Archive
         </disclaimer>
         <assets>
             <icon>resources/icon.png</icon>
