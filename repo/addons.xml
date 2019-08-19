@@ -140,11 +140,11 @@ The collection of 25,000 hours of footage includes public and service informatio
     </extension>
 </addon><addon id="plugin.video.eafa" name="East Anglian Film Archive" provider-name="fraser" version="1.1.0">
     <requires>
-        <import addon="xbmc.python" version="2.26.0" />
+        <import addon="xbmc.python" version="2.25.0" />
         <import addon="script.module.routing" version="0.2.0" />
         <import addon="script.module.beautifulsoup4" version="4.3.2" />
         <import addon="script.module.requests" version="2.12.4" />
-        <import addon="script.module.cache" version="1.0.1" />
+        <import addon="script.module.cache" version="1.0.2" />
     </requires>
     <extension library="main.py" point="xbmc.python.pluginsource">
         <provides>video</provides>
@@ -466,9 +466,9 @@ Their purpose is to collect, care for and share the audiovisual taonga of Aotear
             <screenshot>resources/media/ss6.jpg</screenshot>
         </assets>
     </extension>
-</addon><addon id="script.module.cache" name="cache" provider-name="fraser" version="1.0.1">
+</addon><addon id="script.module.cache" name="cache" provider-name="fraser" version="1.0.3">
     <requires>
-        <import addon="xbmc.python" version="2.26.0" />
+        <import addon="xbmc.python" version="2.25.0" />
     </requires>
     <extension library="lib" point="xbmc.python.module" />
     <extension point="xbmc.addon.metadata">
@@ -481,6 +481,6 @@ Can be used as a generic key/blob data store when used without directives
         <platform>all</platform>
         <email>fraser.chapman@gmail.com</email>
         <source>https://github.com/FraserChapman/script.module.cache</source>
-        <news>v1.0.1 (6-7-19) - Small bug-fix with Store class retrieve</news>
+        <news>v1.0.3 (18-7-19) - Fixes python version error</news>
     </extension>
 </addon></addons>
