@@ -48,4 +48,4 @@ Once you have installed the repository
 The add-ons in this repository are not created, maintained or in any way affiliated with the various content providers whose material they access. The add-ons simply provide an interface to access free, web-accesible, content from the various content providers websites.
 If you are a content provider whose material is accessed by one of the add-ons and have any issue or complaint - please [raise an issue](https://github.com/FraserChapman/repository.film.archives/issues/new?labels=DMCA)
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2e4718a1470c408e842148e253477fc3)](https://www.codacy.com/app/FraserChapman/repository.film.archives?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=FraserChapman/repository.film.archives&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/46494846b5744e07aa653cea07944f20)](https://www.codacy.com/gh/FraserChapman/repository.film.archives/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=FraserChapman/repository.film.archives&amp;utm_campaign=Badge_Grade)
