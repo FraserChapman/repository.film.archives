@@ -2,7 +2,7 @@
 
 ![repository.film.archives](./film.archives/resources/icon.png?dasd=asds)
 
-Colection of Kodi add-ons that allow access to various film and televison archives.
+Collection of Kodi add-ons that allow access to various film and television archives.
 
 [Donations for this repository gratefully accepted](https://www.paypal.me/fraserchapman)
 
